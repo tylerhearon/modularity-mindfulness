@@ -1,0 +1,39 @@
+/*  header and navigation  */
+img {
+  max-width: 100%;
+}
+
+.title {
+  text-align: center;
+}
+
+.navlinksbar {
+  text-align: center;
+}
+
+.navlinks {
+  display: inline-block;
+}
+
+.content {
+  text-align: center;
+}
+
+.essence {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+
+.buttonlinkwords {
+  background-color: #fff;
+  margin: 1em;
+  border: 1.2px solid #000;
+  border-radius: 6px;
+  color: #372d24;
+  padding: .5em;
+}
+
+.buttonlink {
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
