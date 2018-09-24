@@ -1,10 +1,28 @@
 /*  header and navigation  */
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  color: #000;
+}
+
 img {
   max-width: 100%;
 }
 
-.title {
+i {
+  display: block;
+}
+
+span {
+  display: block;
+}
+
+.h1title {
   text-align: center;
+}
+
+.notosansjapanese {
+  font-family: "Noto Sans Japanese", sans-serif;
 }
 
 .navlinksbar {
@@ -15,25 +33,39 @@ img {
   display: inline-block;
 }
 
+.navbutton {
+  border-bottom: 1.5px solid #0084a6;
+  text-decoration: none;
+  color: #005e76;
+}
+
+.navbutton:hover {
+  border-color: #005e76;
+  color: inherit;
+}
+
 .content {
   text-align: center;
 }
 
-.essence {
-  padding-top: 3em;
-  padding-bottom: 3em;
+.mainbanner {
+  max-width: 100%;
 }
 
-.buttonlinkwords {
+.article {
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.btn {
   background-color: #fff;
-  margin: 1em;
-  border: 1.2px solid #000;
+  border: 1.2px solid #8bc9d9;
   border-radius: 6px;
-  color: #372d24;
-  padding: .5em;
+  color: #005e76;
 }
 
-.buttonlink {
-  padding-top: 1em;
-  padding-bottom: 3em;
+.btn:hover {
+  background-color: #8bc9d9;
+  border-color: #005e76;
+  color: #0084a6;
 }
