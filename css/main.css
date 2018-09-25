@@ -34,7 +34,7 @@ span {
 }
 
 .navbutton {
-  border-bottom: 1.5px solid #0084a6;
+  border-bottom: 1.5px solid #8bc9d9;
   text-decoration: none;
   color: #005e76;
 }
@@ -68,4 +68,8 @@ span {
   background-color: #8bc9d9;
   border-color: #005e76;
   color: #0084a6;
+}
+
+.btn-ghost {
+  border-color: #e2e2e2;
 }
