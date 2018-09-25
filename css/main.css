@@ -26,10 +26,6 @@ span {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-.navlinksbar {
-  text-align: center;
-}
-
 .navlinks {
   display: inline-block;
 }
@@ -88,6 +84,10 @@ span {
 
   .navbutton {
     display: inline-block;
+  }
+
+  .navlinksbar {
+    text-align: right;
   }
 
   .wrapper {
